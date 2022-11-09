@@ -70,3 +70,9 @@ Github上的远程仓库分为两种访问方式，分别是HTTPS和SSH
 1. HTTPS零：配置；但是每次访问仓库需要重复输入Github的账号密码才能访问成功
 2. SSH：需要额外的配置；但是配置成功后，每次访问就不要重复上输入Github的账号和密码了（推荐）
 
+### 2.2.1 基于HTTPS将项目上传到Github
+
+1. 先创建一个本地仓库
+2. 将文件先提交到本地仓库中
+3. 输入`git remote add origin 你的https地址` 将本地仓库于Github仓库进行关联
+4. 输入`git push origin master`将本地仓库的内容推送到origin仓库中
